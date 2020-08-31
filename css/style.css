@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+p {
+  margin: 0.75rem 0;
+}
+/* Navbar */
+#navbar {
+  display: flex;
+  position: sticky;
+
+  top: 0;
+  background: #0251cc;
+  color: #fff;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 0.7rem 1rem;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar ul li a {
+  color: #fff;
+
+  padding: 0.75rem;
+  margin: 0.25rem;
+}
+
+#navbar ul li a:hover {
+  background: #1cdfd4;
+  border-radius: 5px;
+}
+
+/* Utility class */
+
+.container {
+  /* max-width: 1100px; */
+  margin: auto;
+  padding: 2rem 2rem;
+  overflow: hidden;
+}
+
+.l-heading {
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+  line-height: 1;
+}
+
+.m-heading {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1;
+}
+
+.l-subheading {
+  color: #1cdfd4;
+  font-weight: bold;
+}
+.m-subheading {
+  background: #1cdfd4;
+  color: white;
+  width: 160px;
+  border: 5px;
+  padding: 9px;
+  margin: 9px;
+  border-radius: 7px;
+}
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  background: #1cdfd4;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #50b6b1;
+}
+
+.btn-dark {
+  background: #333;
+  color: #fff;
+}
+
+/* showcase */
+
+#showcase {
+  background: #333 url('../logo/marvin-meyer-SYTO3xs06fU-unsplash.jpg')
+    no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+
+  /* overlay */
+
+  position: absolute;
+  top: 65px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.container {
+  background: #0f81ce;
+}
+
+#what .container h3,
+#what .container p {
+  color: #fff;
+}
+#what .container h2 {
+  text-align: center;
+}
+
+/* Items */
+
+#what .items {
+  display: flex;
+  padding: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#what .items .item {
+  flex: 1;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+#what .items .item i {
+  background: #f8f8f8;
+  padding: 1.2rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
