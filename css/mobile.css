@@ -70,11 +70,13 @@
   }
 
   #contact {
-    flex-direction: column;
+    display: block;
   }
   #contact .map {
-    height: 400px;
+    height: 300px;
+    border-top: 4px solid #333;
   }
+
   #contact h2 {
     padding-top: 10px;
   }
