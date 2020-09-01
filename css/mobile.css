@@ -24,6 +24,13 @@
   #showcase .showcase-content {
     top: 115px;
   }
+
+  .l-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1;
+  }
+
   #who {
     display: block;
   }
@@ -40,20 +47,35 @@
   .p-2 {
     padding: 1rem;
   }
-  #who h3,
+
   #who h2 {
     padding-top: 10px;
     text-align: left;
-    font-size: 15px;
+    font-size: 16px;
     color: white;
   }
-  .m-heading {
+  #who h1 {
     text-align: center;
+    padding-top: 10px;
   }
 
   #who p {
     font-size: 14px;
     padding: 5px;
     margin: 5px;
+  }
+
+  #clients .items img {
+    width: 60%;
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+  #contact .map {
+    height: 400px;
+  }
+  #contact h2 {
+    padding-top: 10px;
   }
 }
