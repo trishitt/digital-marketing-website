@@ -81,7 +81,15 @@ p {
   margin: 9px;
   border-radius: 7px;
 }
-
+.mmm-heading {
+  background: #1cdfd4;
+  color: white;
+  width: 160px;
+  border: 5px;
+  padding: 9px;
+  margin: 9px;
+  border-radius: 7px;
+}
 .mm-subheading {
   background: #3e35bb;
   color: white;

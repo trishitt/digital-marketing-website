@@ -1,0 +1,59 @@
+#what .items {
+  display: block;
+  padding: 1rem;
+}
+
+/* smartphones */
+@media (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar .logo {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  #navbar.logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  #navbar ul {
+    padding: 0.5rem;
+  }
+  #showcase .showcase-content {
+    top: 115px;
+  }
+  #who {
+    display: block;
+  }
+  #who .who-img {
+    display: none;
+  }
+
+  #who img {
+    height: 5rem;
+    width: 5rem;
+    justify-content: left;
+    padding-left: 0;
+  }
+  .p-2 {
+    padding: 1rem;
+  }
+  #who h3,
+  #who h2 {
+    padding-top: 10px;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+  }
+  .m-heading {
+    text-align: center;
+  }
+
+  #who p {
+    font-size: 14px;
+    padding: 5px;
+    margin: 5px;
+  }
+}
