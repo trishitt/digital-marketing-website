@@ -72,6 +72,13 @@
     padding-top: 0;
   }
 
+  #clients .items img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    padding: 15px;
+  }
+
   #contact {
     display: block;
   }
