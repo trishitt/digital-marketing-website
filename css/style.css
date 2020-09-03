@@ -214,12 +214,17 @@ p {
   flex: 1;
 }
 #who .who-img {
-  background: url('../logo/you-x-ventures-Oalh2MojUuk-unsplash.jpg') no-repeat
-    center center/cover;
+  background: url('../logo/undraw_Scrum_board_re_wk7v.svg') no-repeat center
+    center/cover;
   height: 820px;
   width: 50%;
   justify-content: center;
 }
+
+#who .who-img:hover {
+  background-color: #1cdfd4;
+}
+
 #who img {
   height: 10rem;
   width: 10rem;
@@ -264,7 +269,12 @@ p {
   display: block;
   margin: auto;
   width: 65%;
-  padding: 5px;
+  padding: 15px;
+}
+
+#clients .items img:hover {
+  background-color: rgba(87, 47, 196, 0.7);
+  border-radius: 20%;
 }
 
 /* Contact */
