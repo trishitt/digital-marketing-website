@@ -6,6 +6,4 @@ This is a simple digital marketing agency website with HTML/CSS and few lines of
 
 ![](/screenshot/Screenshot%20(9).png)
 
-![](/screenshot/Screenshot%20(10).png)
-
 
